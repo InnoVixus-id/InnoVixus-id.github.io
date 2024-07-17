@@ -1,0 +1,28 @@
+.table-progress-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-progress-list__item {
+    text-align: center;
+    width: 25%;
+}
+
+.result-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result-table th, .result-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.result-table__wrapper {
+    margin-top: 16px;
+}
+
+.animate {
+    transition: all 0.3s ease;
+}
